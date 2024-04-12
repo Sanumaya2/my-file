@@ -15,21 +15,34 @@
 // Console.WriteLine($"{s1.name}  {s1.address}  {s1.roll}  {s1.dob}");
 // s1.PrintDetails();
 
-Animal a1 = new();
-Animal a2 = new();
+// Animal a1 = new();
+// Animal a2 = new();
 
-a1.name = "Dog";
-a1.color = "black";
-a1.age = 4;
-a1.weight = 45;
-a1.sound = "Bark";
-Console.WriteLine($"Name:{a1.name}  Color:{a1.color}  Age:{a1.age}  Weight:{a1.weight}   Sound:{a1.sound}");
+// a1.name = "Dog";
+// a1.color = "black";
+// a1.age = 4;
+// a1.weight = 45;
+// a1.sound = "Bark";
+// Console.WriteLine($"Name:{a1.name}  Color:{a1.color}  Age:{a1.age}  Weight:{a1.weight}   Sound:{a1.sound}");
 
-a2.name = "Cat";
-a2.color = "black and white";
-a2.age = 6;
-a2.weight = 20;
-a2.sound = "Meow";
-Console.WriteLine($"Name:{a2.name}  Color:{a2.color}  Age:{a2.age}  Weight:{a2.weight}  Sound:{a2.sound}");
+// a2.name = "Cat";
+// a2.color = "black and white";
+// a2.age = 6;
+// a2.weight = 20;
+// a2.sound = "Meow";
+// Console.WriteLine($"Name:{a2.name}  Color:{a2.color}  Age:{a2.age}  Weight:{a2.weight}  Sound:{a2.sound}");
 
+// var rec1 = new Rectangle( 5.6 , 3.4);
+// var p = rec1.GetPerimeter();
+
+// var rec2 = new Rectangle( 5.6 , 3.4);
+// var a = rec1.GetArea();
+
+// var square1 = new Square(23.5);
+// var b = square1.GetArea();
+
+var cir1 = new Circle(3.14 *5);
+var c = cir1.GetArea();
+var cir2 = new Circle(2*3.14*5);
+var d = cir2.GetPerimeter();
 
