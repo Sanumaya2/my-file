@@ -38,11 +38,18 @@
 // var rec2 = new Rectangle( 5.6 , 3.4);
 // var a = rec1.GetArea();
 
+// Console.WriteLine("Rectangle 1 - Perimeter:" + p);
+// Console.WriteLine("Rectangle 2 - Area:" + a);
+
 // var square1 = new Square(23.5);
 // var b = square1.GetArea();
+// var h = square1.GetPerimeter();
+// Console.WriteLine("Square 1 - Perimeter:" + h);
+// Console.WriteLine("Square 2 - Area:" + b);
 
-var cir1 = new Circle(3.14 *5);
+var cir1 = new Circle(12.5);
 var c = cir1.GetArea();
-var cir2 = new Circle(2*3.14*5);
-var d = cir2.GetPerimeter();
+var d = cir1.GetPerimeter();
+Console.WriteLine("Circle - Perimeter:" + d);
+Console.WriteLine("Circle - Area:" + c);
 
