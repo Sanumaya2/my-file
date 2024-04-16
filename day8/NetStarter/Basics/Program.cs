@@ -31,9 +31,10 @@
 // a2.weight = 20;
 // a2.sound = "Meow";
 // Console.WriteLine($"Name:{a2.name}  Color:{a2.color}  Age:{a2.age}  Weight:{a2.weight}  Sound:{a2.sound}");
-
-// var rec1 = new Rectangle( 5.6 , 3.4);
-// var p = rec1.GetPerimeter();
+using System;
+using Inheritance;
+var rec1 = new Rectangle( 5.6 , 3.4);
+var p = rec1.GetPerimeter();
 
 // var rec2 = new Rectangle( 5.6 , 3.4);
 // var a = rec1.GetArea();
@@ -47,9 +48,18 @@
 // Console.WriteLine("Square 1 - Perimeter:" + h);
 // Console.WriteLine("Square 2 - Area:" + b);
 
-var cir1 = new Circle(12.5);
-var c = cir1.GetArea();
-var d = cir1.GetPerimeter();
-Console.WriteLine("Circle - Perimeter:" + d);
-Console.WriteLine("Circle - Area:" + c);
+// var cir1 = new Circle(12.5);
+// var c = cir1.GetArea();
+// var d = cir1.GetPerimeter();
+// Console.WriteLine("Circle 1- Perimeter:" + d);
+// Console.WriteLine("Circle 2 - Area:" + c);
+
+//  
+
+ var fileio = new FileIO();
+ fileio.CreateFile();
+
+ fileio.CreateFileWithInFolder();
+
+
 
